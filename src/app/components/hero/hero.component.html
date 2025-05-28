@@ -1,0 +1,20 @@
+<!-- src/app/components/hero/hero.component.html -->
+<section class="w-full h-screen relative overflow-hidden bg-gray-900">
+  <div class="absolute inset-0 flex flex-col items-center justify-center px-4 text-center space-y-4">
+    <h1 class="text-white text-7xl font-bold leading-tight max-md:text-5xl max-sm:text-3xl">
+      {{ title }}
+    </h1>
+    <p class="text-white text-2xl max-md:text-xl max-sm:text-base">
+      {{ subtitle }}
+    </p>
+
+    <div class="flex flex-wrap gap-4 justify-center">
+      <app-button [text]="'Primary'"    variant="btn"        color="primary"  (click)="onGetStarted()"></app-button>
+      <app-button [text]="'Secondary'"  variant="btn" color="secondary" (click)="onGetStarted()"></app-button>
+      <app-button [text]="'Success'"    variant="btn"        color="success"  (click)="onGetStarted()"></app-button>
+      <app-button [text]="'Danger'"     variant="btn" color="danger"    (click)="onGetStarted()"></app-button>
+      <app-button [text]="'Warning'"    variant="btn"        color="warning"  (click)="onGetStarted()"></app-button>
+    </div>
+
+  </div>
+</section>

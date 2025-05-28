@@ -1,0 +1,115 @@
+.root {
+  padding: 10px 16px 10px 16px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+  gap: 8px;
+  box-sizing: border-box;
+  border-radius: 6px;
+}
+
+.root_variantBtnOutline {
+  background: #ffffff;
+}
+
+.root_variantBtnColorSecondary {
+  background: #6c757d;
+}
+
+.root_variantBtnColorSuccess {
+  background: #28a745;
+}
+
+.root_variantBtnColorDanger {
+  background: #dc3545;
+}
+
+.root_variantBtnColorInfo {
+  background: #17a2b8;
+}
+
+.root_variantBtnColorWarning {
+  background: #ffc107;
+}
+
+.root_variantBtnOutlineColorPrimary {
+  border-color: #7749f8;
+  border-style: solid;
+  border-width: undefinedpx;
+}
+
+.root_variantBtnOutlineColorSecondary {
+  border-color: #6c757d;
+  border-style: solid;
+  border-width: undefinedpx;
+}
+
+.root_variantBtnOutlineColorSuccess {
+  border-color: #28a745;
+  border-style: solid;
+  border-width: undefinedpx;
+}
+
+.root_variantBtnOutlineColorDanger {
+  border-color: #dc3545;
+  border-style: solid;
+  border-width: undefinedpx;
+}
+
+.root_variantBtnOutlineColorInfo {
+  border-color: #17a2b8;
+  border-style: solid;
+  border-width: undefinedpx;
+}
+
+.root_variantBtnOutlineColorWarning {
+  border-color: #ffc107;
+  border-style: solid;
+  border-width: undefinedpx;
+}
+.button {
+  display: flex;
+  box-sizing: content-box;
+  font-size: 16px;
+  font-family: Inter;
+  line-height: 18px;
+  letter-spacing: 0%;
+  text-decoration: none;
+  font-weight: 600;
+  text-align: left;
+  text-wrap: nowrap;
+}
+
+.button_variantBtnOutlineColorPrimary {
+  color: #000000;
+}
+
+.button_variantBtnColorSecondaryColorSuccessColorDangerColorInfo {
+  color: #000000;
+}
+
+.button_variantBtnOutlineColorSecondary {
+  color: #000000;
+}
+
+.button_variantBtnOutlineColorSuccess {
+  color: #000000;
+}
+
+.button_variantBtnOutlineColorDanger {
+  color: #000000;
+}
+
+.button_variantBtnOutlineColorInfo {
+  color: #000000;
+}
+
+.button_variantBtnColorWarning {
+  color: #000000;
+}
+
+.button_variantBtnOutlineColorWarning {
+  color: #000000;
+}

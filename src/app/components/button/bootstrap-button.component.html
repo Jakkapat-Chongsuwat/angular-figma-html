@@ -1,0 +1,49 @@
+<div
+  class="root"
+  [ngClass]="{
+    root_variantBtnOutline: variant === 'btn-outline',
+    root_variantBtnColorSecondary: variant === 'btn' && color === 'secondary',
+    root_variantBtnColorSuccess: variant === 'btn' && color === 'success',
+    root_variantBtnColorDanger: variant === 'btn' && color === 'danger',
+    root_variantBtnColorInfo: variant === 'btn' && color === 'info',
+    root_variantBtnColorWarning: variant === 'btn' && color === 'warning',
+    root_variantBtnOutlineColorPrimary:
+      variant === 'btn-outline' && color === 'primary',
+    root_variantBtnOutlineColorSecondary:
+      variant === 'btn-outline' && color === 'secondary',
+    root_variantBtnOutlineColorSuccess:
+      variant === 'btn-outline' && color === 'success',
+    root_variantBtnOutlineColorDanger:
+      variant === 'btn-outline' && color === 'danger',
+    root_variantBtnOutlineColorInfo:
+      variant === 'btn-outline' && color === 'info',
+    root_variantBtnOutlineColorWarning:
+      variant === 'btn-outline' && color === 'warning',
+  }"
+>
+  <span
+    class="button"
+    [ngClass]="{
+      button_variantBtnOutlineColorPrimary:
+        variant === 'btn-outline' && color === 'primary',
+      button_variantBtnColorSecondaryColorSuccessColorDangerColorInfo:
+        variant === 'btn' &&
+        (color === 'secondary' ||
+          color === 'success' ||
+          color === 'danger' ||
+          color === 'info'),
+      button_variantBtnOutlineColorSecondary:
+        variant === 'btn-outline' && color === 'secondary',
+      button_variantBtnOutlineColorSuccess:
+        variant === 'btn-outline' && color === 'success',
+      button_variantBtnOutlineColorDanger:
+        variant === 'btn-outline' && color === 'danger',
+      button_variantBtnOutlineColorInfo:
+        variant === 'btn-outline' && color === 'info',
+      button_variantBtnColorWarning: variant === 'btn' && color === 'warning',
+      button_variantBtnOutlineColorWarning:
+        variant === 'btn-outline' && color === 'warning',
+    }"
+    >{{ text }}</span
+  >
+</div>
